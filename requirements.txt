@@ -1,32 +1,25 @@
-# === Core Framework ===
 fastapi
 uvicorn[standard]
 python-multipart
 
-# === Database ===
 motor
 beanie
 
-# === Config ===
 pydantic>=2.0.0
 pydantic-settings
 python-dotenv
 email-validator
 
-# === Security ===
 python-jose[cryptography]
 passlib[bcrypt]
 bcrypt==4.0.1
 
-# === AI & Vector Ops ===
 openai
 langchain==0.3.7
-langchain-community
-langchain-google-genai
 langchain-groq
-langchain_huggingface
-faiss-cpu
-pypdf
 
-# === HTTP ===
+faiss-cpu
 httpx
+
+# Prevent CUDA installs
+torch==0.0.0
