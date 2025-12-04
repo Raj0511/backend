@@ -1,26 +1,33 @@
+# === Core Framework ===
 fastapi
 uvicorn[standard]
 python-multipart
 
+# === Database ===
 motor
 beanie
 
+# === Config ===
 pydantic>=2.0.0
 pydantic-settings
 python-dotenv
 email-validator
 
+# === Security ===
 python-jose[cryptography]
 passlib[bcrypt]
 bcrypt
 
+# === AI & Vector Ops ===
 openai
 langchain
+langchain-community
+langchain-google-genai
 langchain-groq
-
+langchain_huggingface
 faiss-cpu
+pypdf
+
+# === HTTP ===
 httpx
-
-# Prevent CUDA installs
 torch --index-url https://download.pytorch.org/whl/cpu
-
