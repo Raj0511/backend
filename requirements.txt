@@ -22,4 +22,5 @@ faiss-cpu
 httpx
 
 # Prevent CUDA installs
-torch==0.0.0
+torch==9999999.0
+
