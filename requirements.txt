@@ -12,10 +12,10 @@ email-validator
 
 python-jose[cryptography]
 passlib[bcrypt]
-bcrypt==4.0.1
+bcrypt
 
 openai
-langchain==0.3.7
+langchain
 langchain-groq
 
 faiss-cpu
