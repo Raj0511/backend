@@ -29,4 +29,3 @@ pypdf
 
 # === HTTP ===
 httpx
-torch==0.0.0
